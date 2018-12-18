@@ -23,10 +23,10 @@ Filename | Description
 /Readme.md:| the README file
 
 ## Pre Requisites
-/OpenCV for python3
-/numpy
-/scipy
-/griddata
+- OpenCV for python3
+- numpy
+- scipy
+- griddata
 
 ## Author
 Rex Jomy Joseph
