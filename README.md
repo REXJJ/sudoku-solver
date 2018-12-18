@@ -22,11 +22,11 @@ Filename | Description
 /images:| contains sample images.
 /Readme.md:| the README file
 
-#### *Pre Requisites*
-OpenCV for python3
-numpy
-scipy
-griddata
+## Pre Requisites
+/OpenCV for python3
+/numpy
+/scipy
+/griddata
 
 ## Author
 Rex Jomy Joseph
