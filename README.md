@@ -7,6 +7,9 @@ Install all the necessary pre requisites.
 Run SuDoKuGUI_v2.py
 
 ## Sample Operations
+The GUI:
+
+![alt text](https://github.com/REXJJ/SuDoKu-Solver/blob/master/ScreenShots/scr1.png)
 
 Files
 -----
