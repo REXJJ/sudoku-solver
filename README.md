@@ -9,8 +9,3 @@ Filename | Description
 /digitidentifier.py:| contains methods for identifying a digit from its image.
 /images:| contains sample images.
 /Readme.md:| the README file
-
-How to compile and run
------------------------
-1. execute "make" on terminal when in directory containing these files
-2. ./prodcon [inputFilename]
