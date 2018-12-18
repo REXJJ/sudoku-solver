@@ -1,4 +1,13 @@
 # SuDoKu-Solver
+This project lets you solve a SuDoKu Puzzle, which you can enter manually into the GUI or load from an image.
+
+## Getting Started
+Download all the files from this repository.
+Install all the necessary pre requisites.
+Run SuDoKuGUI_v2.py
+
+## Sample Operations
+
 Files
 -----
 Filename | Description 
@@ -12,3 +21,12 @@ Filename | Description
 /generalsamples.data| Contains the data extracted from images for digit recognition training.
 /images:| contains sample images.
 /Readme.md:| the README file
+
+#### *Pre Requisites*
+OpenCV for python3
+numpy
+scipy
+griddata
+
+## Author
+Rex Jomy Joseph
