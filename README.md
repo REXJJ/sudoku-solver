@@ -40,6 +40,11 @@ Press solve to solve it using the program.
 <img src="https://github.com/REXJJ/SuDoKu-Solver/blob/master/ScreenShots/scr6.png"><br>
 </div>
 
+If any of the digits are not recognized properly, rectify it, press correct and then click on teach to update the model.
+<div align="center">
+<img src="https://github.com/REXJJ/SuDoKu-Solver/blob/master/ScreenShots/scr7.png"><br>
+</div>
+
 Files
 -----
 Filename | Description 
