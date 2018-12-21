@@ -1,14 +1,13 @@
-
 from tkinter import Tk, Canvas, Frame, Button, BOTH, TOP, BOTTOM,filedialog,ttk
 import tkinter as tk
 
 import backtrack
 import imageprocessing
+import digitidentifier
 
 MARGIN = 20  # Pixels around the board
 SIDE = 50  # Width of every board cell.
 WIDTH = HEIGHT = MARGIN * 2 + SIDE * 9  # Width and height of the whole board
-
 
 class SudokuUI(Frame):
     """
@@ -41,6 +40,10 @@ class SudokuUI(Frame):
         correct_button = Button(self,text=" Correct ",command=self.correct)
         correct_button.pack()
         correct_button.place(x=200,y=HEIGHT-10)
+        teach_button = Button(self,text=" Teach ",command=self.teach)
+        teach_button.pack()
+        teach_button.place(x=280,y=HEIGHT-10)
+        
         self.__draw_grid()
         self.__draw_puzzle()
         self.canvas.bind("<Button-1>", self.__cell_clicked)
@@ -183,9 +186,12 @@ class SudokuUI(Frame):
         self.board = self.game.puzzle
         self.game.start_puzzle=self.game.puzzle
         self.game.start()
-        self.__draw_puzzle()  
+        self.__draw_puzzle()
 
-    
+    def teach(self):
+        sudoku=self.game.start_puzzle
+        digitidentifier.update(sudoku)
+        
 
 class SudokuBoard(object):
     def __init__(self):
